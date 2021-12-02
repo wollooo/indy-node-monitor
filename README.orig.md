@@ -14,23 +14,15 @@ Contributions are welcome of tools that consume the collected data to enable eas
 
 ## Fetch Validator Status
 
-This is a simple tool that can be used to retrieve "validator-info"&mdash;detailed status data about an Indy node (aka "validator)&mdash;from all the nodes in a network. The results are returned as: 
-- JSON array with a record per validator (default)
-- Prometheus format (with option -p)
+This is a simple tool that can be used to retrieve "validator-info"&mdash;detailed status data about an Indy node (aka "validator)&mdash;from all the nodes in a network. The results are returned as a JSON array with a record per validator.
 
 For more details see the Fetch Validator Status [readme](fetch-validator-status/README.md)
 
-## Authors
-- The code of this repository is forked from https://github.com/lynnbendixsen/indy-node-monitor (Lynn Bendixsen and contributors).
-The original README.md can be seen in README.orig.md.
+## Contributions
 
-- The prometheus export function code has been adapted from the unmerged pull request #6:
-https://github.com/hyperledger/indy-node-monitor/pull/6 (Kevin Wittek)
+Pull requests are welcome! Please read our [contributions guide](CONTRIBUTING.md) and submit your PRs. We enforce developer certificate of origin (DCO) commit signing. See guidance [here](https://github.com/apps/dco).
 
-- The adaptation and bug fixes were done by Carlos Morra, Siemen AG.
-
-## Installation and configuration: 
-See [setup](setup_IDUnion_node_monitoring.md) and [install indy vdr](install-indy-vdr.md).
+We also welcome issues submitted about problems you encounter in using the tools within this repo.
 
 ## Code of Conduct
 
